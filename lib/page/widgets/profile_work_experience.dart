@@ -25,9 +25,9 @@ class ProfileWorkExperience extends StatelessWidget {
           company: "PT. Living Fitness Indonesia",
           startYear: "Sep 2023",
           endYear: "Present",
-          description:
-              "Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms.",
-        ),
+            description: """
+          Currently employed at LIF (Living in Fitness), a company providing corporate wellness programs. These programs promote healthy lifestyles by tracking employee activity through wearable devices like the Actxa Spark, Apple Watch, Huawei Watch, and Garmin. To further encourage engagement, LIF offers challenges that motivate users to exceed their typical activity levels. By achieving these goals, users earn reward points redeemable for incentives such as e-money, mobile phone credit, and e-vouchers. Initially joined LIF through Sagara Technology as an outsourced programmer before transitioning to a full-time role as a Senior Front-End Developer.  In this capacity, I have been responsible for developing their new Flutter application, contributing features such as user login and registration, fitness tracker integration (including Apple Health), challenge and reward systems, surveys, quizzes, and event check-in functionality. The LIF app is available on both the Google Play Store and Apple App Store.\n\nStack used:\n- Flutter \n- Dio\n- Shared Preferences\n- Sentry\n- Bluetooth Integration\n- Firebase(App Distribution, Remote Config)\n- Gemini AI\n- Bitbucket\n- Jira
+          """),
         const ProfileWorkExperienceItem(
           asset: "assets/logo_sagara.jpeg",
           role: "Flutter Engineer",

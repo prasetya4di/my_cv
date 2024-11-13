@@ -13,10 +13,9 @@ class FullProfileSection extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          ProfileWorkExperience(),
           ProfileAboutMe(),
           ProfileEducation(),
-
+          ProfileWorkExperience(),
         ],
       ),
     );
