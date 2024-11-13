@@ -62,8 +62,9 @@ class ProfileWorkExperience extends StatelessWidget {
           company: "PT. Aero Systems Indonesia",
           startYear: "Jul 2018",
           endYear: "Jul 2019",
-          description:
-          "Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms.",
+          description: """
+           Selected for a Deep Trainee position at PT. Aero Systems Indonesia (Asyst) through a competitive recruitment program conducted at my school. The comprehensive three-month training program provided a strong foundation in programming languages and the company's technology stack, including Java, Codeigniter, and Android Java. Following the training, I joined the mobile development team, focusing on creating cross-platform applications using React Native.  My initial project was a bespoke mobile booking application exclusively for Garuda Indonesia employees. This application, built with React Native, Redux, and SVN for version control, streamlined the booking process for internal users. Project management and issue tracking were facilitated through Jira.\n\nStack used : \n- React Native\n- Redux\n- SVN (Subversion Versioning)\n- JIRA
+          """,
           useVerticalDivider: false,
         ),
         const SizedBox(height: 18),
