@@ -1,0 +1,35 @@
+{
+  "assets/fotoku.jpg": [
+    "assets/fotoku.jpg"
+  ],
+  "assets/lif_indonesia_logo.jpeg": [
+    "assets/lif_indonesia_logo.jpeg"
+  ],
+  "assets/logo_sagara.jpeg": [
+    "assets/logo_sagara.jpeg"
+  ],
+  "assets/logo_stiki.png": [
+    "assets/logo_stiki.png"
+  ],
+  "assets/logo_telkom_school.png": [
+    "assets/logo_telkom_school.png"
+  ],
+  "assets/majoo_indonesia_logo.jpeg": [
+    "assets/majoo_indonesia_logo.jpeg"
+  ],
+  "assets/pt_aero_systems_indonesia_logo.jpeg": [
+    "assets/pt_aero_systems_indonesia_logo.jpeg"
+  ],
+  "assets/quipper_logo.jpeg": [
+    "assets/quipper_logo.jpeg"
+  ],
+  "assets/simple_profile_section_background.jpg": [
+    "assets/simple_profile_section_background.jpg"
+  ],
+  "packages/cupertino_icons/assets/CupertinoIcons.ttf": [
+    "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+  ],
+  "packages/simple_icons/fonts/SimpleIcons.ttf": [
+    "packages/simple_icons/fonts/SimpleIcons.ttf"
+  ]
+}
