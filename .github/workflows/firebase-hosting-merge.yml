@@ -11,17 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-      - name: Install Firebase CLI
-        run: npm install -g firebase-tools
-      - name: Authenticate with Firebase
-        run: firebase login:ci
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CV_PRASETYA }}
           channelId: live
           projectId: cv-prasetya
+          token: ${{ secrets.FIREBASE_TOKEN }}
