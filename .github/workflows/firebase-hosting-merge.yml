@@ -17,4 +17,3 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CV_PRASETYA }}
           channelId: live
           projectId: cv-prasetya
-          token: ${{ secrets.FIREBASE_TOKEN }}
