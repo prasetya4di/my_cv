@@ -53,8 +53,9 @@ class ProfileWorkExperience extends StatelessWidget {
           company: "PT. Majoo Teknologi Indonesia",
           startYear: "Aug 2019",
           endYear: "June 2021",
-          description:
-          "Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms. Developing mobile applications for Android and iOS platforms.",
+          description: """
+           As a Mobile Engineer at Majoo, I spearheaded the development of a new Flutter application for smartphones, complementing their existing tablet app. This role provided my first opportunity to gain expertise in Flutter, which I embraced enthusiastically. As a key member of the development team, I built features from the ground up, including Bluetooth printing, PIN screen security, wallet payments, and e-commerce integration. Notably, I developed a custom printer integration solution due to the lack of available packages at the time. This application is now available on the Google Play Store.\n\nStack used : \n- Flutter\n- Dart\n- Firebase(App Distribution, Remote Config)\n- Bluetooth\n- Dio\n- Sqflite\n- RabbitMq\n- Shared Preferences\n- Bitbucket
+          """,
         ),
         const ProfileWorkExperienceItem(
           asset: "assets/pt_aero_systems_indonesia_logo.jpeg",
