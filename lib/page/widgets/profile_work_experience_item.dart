@@ -53,8 +53,10 @@ class ProfileWorkExperienceItem extends StatelessWidget {
                 textAlign: TextAlign.justify,
               ),
               const SizedBox(height: 8),
-              const Divider(),
-              const SizedBox(height: 8),
+              if (useVerticalDivider) ...[
+                const Divider(),
+                const SizedBox(height: 8),
+              ]
             ],
           ),
         )
